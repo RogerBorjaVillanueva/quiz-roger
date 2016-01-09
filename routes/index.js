@@ -31,7 +31,7 @@ router.delete('/quizes/:quizId(\\d+)',		sessionController.loginRequired, quizCon
 
 // Página de autor
 router.get('/author', function(req, res) {
-  res.render('author', { author:"Miguel Ángel Díaz", picture:"/images/foto.jpg", errors: [] });
+  res.render('author', { author:"Roger Borja Villanueva", picture:"/images/foto.jpg", errors: [] });
 });
 
 // Definición de rutas de comentarios

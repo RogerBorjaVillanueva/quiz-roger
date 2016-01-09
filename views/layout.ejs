@@ -21,16 +21,16 @@
 			<% } else { %>
 				<span class="right"> <%= session.user.username%> <a href="/logout">Logout</a></span>
 			<% } %>
-			
+
 			<h2>Quiz: el juego de las preguntas</h2>
 		</header>
-		
+
 		<nav class="main" id="n1" role="navigation">
 			<span><a href="/">Inicio</a></span>
 			<span><a href="/quizes">Preguntas</a></span>
 			<span><a href="/author">Créditos</a></span>
 		</nav>
-		
+
 		<section class="main" id="s1">
 			<% if (errors.length) { %>
 				<span id='ErrorMsgs'>
@@ -42,10 +42,10 @@
 			<% } %>
 			<div><%- body %></div>
 		</section>
-		
+
 		<footer class="main" id="f1">
 			<a href="http://es.wikipedia.org/wiki/Quiz">¿Qué es un Quiz?</a>
-			<a href="https://github.com/madctol/quiz">Código en GitHub</a>
+			<a href="https://github.com/RogerBorjaVillanueva/quiz-roger">Código en GitHub</a>
 		</footer>
 	</div>
   </body>
